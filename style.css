@@ -1,0 +1,172 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+  position: relative;
+	box-sizing: border-box;
+	background-color: whitesmoke;
+	font-family: Arial;
+  sans-serif;
+	margin: auto;
+	padding: 0;
+	width: 750px;
+	height: 1134px;
+}
+
+header {
+	position: fixed;
+	width: 750px;
+}
+
+.statusbar {
+	width: 100%;
+	margin-top: 0px;
+	float: left;
+	text-align: center;
+	display: inline;
+}
+
+.nav {
+	margin-top: 10px;
+	padding-top: 70px;
+	width: 100%;
+	height: 120px;
+	background-color: #FFA800;
+	float: center;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	margin: auto;
+	font-style: bold;
+}
+
+.Map {
+  width:100%;
+}
+
+li {
+	left: 0px;
+	width: 750px;
+	display: inline;
+	text-align: left;
+  list-style-type: none;
+}
+
+.back-button {
+	position: absolute;
+	width: 750px;
+	left: 10px;
+	display: inline-block;
+	text-align: left;
+}
+
+.hamburger {
+	position: absolute;
+  right: 10px;
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: right;
+}
+
+.ri {
+	position: absolute;
+	width: 750px;
+	right: 10px;
+	display: inline-block;
+	text-align: right;
+}
+
+.map {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+}
+
+.container {
+	background-color: white;
+	width: 100%;
+	line-height: 20px;
+}
+
+.tr {
+	text-align: center;
+	font-style: Bold;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	background-color: white;
+	display: inline;
+}
+
+.container h1 {
+	background-color: #FFA800;
+  font-size: 1.4em;
+  text-decoration: underline;
+	font-style: bold;
+  padding: 10px;
+	color: white;
+	}
+
+.container h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.container h3 {
+	font-size: 1em;
+	text-align: left;
+	color: #757575;
+	padding-top: 5px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.container h4 {
+	font-size: 1em;
+	font-style: italic;
+	color: #757575;
+	margin-left: 15px;
+}
+
+.container h5 {
+	font-size: 1.5em;
+	text-align: right;
+	font-style: bold;
+	color: #0052CD;
+	margin-right: 5px;
+}
+
+.right {
+	float: right;
+}
+
+
+.content {
+	background-color: white;
+	border-top: .3px solid #757575;
+	border-bottom: .4px solid #757575;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.back-button:hover {
+	color: grey;
+}
+
+.hamburger:hover {
+	color: grey;
+}
+
+section.content:hover {
+  background-color: #FFDD9C;
+}
