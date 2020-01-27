@@ -12,20 +12,20 @@ body {
   sans-serif;
 	margin: auto;
 	padding: 0;
-	width: 750px;
+	width: 100%;
 	height: 1134px;
 }
 
 header {
 	position: fixed;
-	width: 750px;
+	width: 100%;
+	font-size: 1.5em;
 }
 
 .statusbar {
 	width: 100%;
 	margin-top: 0px;
 	float: left;
-	text-align: center;
 	display: inline;
 }
 
@@ -33,7 +33,7 @@ header {
 	margin-top: 10px;
 	padding-top: 70px;
 	width: 100%;
-	height: 120px;
+	height: 160px;
 	background-color: #FFA800;
 	float: center;
 	text-align: center;
@@ -139,7 +139,7 @@ li {
 }
 
 .container h5 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-align: right;
 	font-style: bold;
 	color: #0052CD;
