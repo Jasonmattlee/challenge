@@ -17,7 +17,6 @@ body {
 }
 
 header {
-	position: fixed;
 	width: 100%;
 	font-size: 1.5em;
 }
@@ -30,8 +29,8 @@ header {
 }
 
 .nav {
-	margin-top: 10px;
-	padding-top: 70px;
+	margin-top: 0px;
+	padding-top: 90px;
 	width: 100%;
 	height: 160px;
 	background-color: #FFA800;
