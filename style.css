@@ -8,17 +8,19 @@ body {
   position: relative;
 	box-sizing: border-box;
 	background-color: whitesmoke;
-	font-family: Arial;
+	font-family: open sans, arial, sans-serif;
   sans-serif;
 	margin: auto;
 	padding: 0;
-	width: 100%;
-	height: 1134px;
+	width: 375px;
+	height: 667px;
+	overflow-x: auto;
 }
 
 header {
-	width: 100%;
-	font-size: 1.5em;
+	width: 375px;
+	font-size: .7em;
+	font-weight: bold;
 	position: fixed;
 }
 
@@ -32,9 +34,9 @@ header {
 
 .nav {
 	margin-top: 0px;
-	padding-top: 90px;
+	padding-top: 40px;
 	width: 100%;
-	height: 160px;
+	height: 80px;
 	background-color: #FFA800;
 	float: center;
 	text-align: center;
@@ -140,7 +142,7 @@ li {
 }
 
 .container h5 {
-	font-size: 50px;
+	font-size: 1.3em;
 	text-align: right;
 	font-style: bold;
 	color: #0052CD;
