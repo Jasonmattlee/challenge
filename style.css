@@ -5,11 +5,10 @@
 }
 
 body {
-  position: relative;
+	position: relative;
 	box-sizing: border-box;
 	background-color: whitesmoke;
 	font-family: open sans, arial, sans-serif;
-  sans-serif;
 	margin: auto;
 	padding: 0;
 	width: 375px;
@@ -29,7 +28,6 @@ header {
 	margin-top: 0px;
 	float: left;
 	display: inline;
-
 }
 
 .nav {
@@ -43,11 +41,10 @@ header {
 	font-size: 2em;
 	color: white;
 	margin: auto;
-
 }
 
 .Map {
-  width:100%;
+	width: 100%;
 }
 
 li {
@@ -55,7 +52,7 @@ li {
 	width: 750px;
 	display: inline;
 	text-align: left;
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .back-button {
@@ -68,7 +65,7 @@ li {
 
 .hamburger {
 	position: absolute;
-  right: 10px;
+	right: 10px;
 	font-size: 1.2em;
 	display: inline-block;
 	text-align: right;
@@ -88,34 +85,21 @@ li {
 	align-content: center;
 }
 
-.container {
-	background-color: white;
-	width: 100%;
-	line-height: 20px;
-}
-
 .tr {
 	text-align: center;
 	font-style: Bold;
 }
 
-.container {
-	margin: 0 auto;
-	width: 100%;
-	background-color: white;
-	display: inline;
+h1 {
+	background-color: #FFA800;
+	font-size: 1.4em;
+	text-decoration: underline;
+	font-style: bold;
+	padding: 10px;
+	color: white;
 }
 
-.container h1 {
-	background-color: #FFA800;
-  font-size: 1.4em;
-  text-decoration: underline;
-	font-style: bold;
-  padding: 10px;
-	color: white;
-	}
-
-.container h2 {
+h2 {
 	font-size: 1.3em;
 	font-weight: bold;
 	text-align: left;
@@ -125,7 +109,7 @@ li {
 	margin-bottom: 5px;
 }
 
-.container h3 {
+h3 {
 	font-size: 1em;
 	text-align: left;
 	color: #757575;
@@ -134,14 +118,14 @@ li {
 	margin-bottom: 5px;
 }
 
-.container h4 {
+h4 {
 	font-size: 1em;
 	font-style: italic;
 	color: #757575;
 	margin-left: 15px;
 }
 
-.container h5 {
+h5 {
 	font-size: 1.3em;
 	text-align: right;
 	font-style: bold;
@@ -152,7 +136,6 @@ li {
 .right {
 	float: right;
 }
-
 
 .content {
 	background-color: white;
@@ -171,5 +154,5 @@ li {
 }
 
 section.content:hover {
-  background-color: #FFDD9C;
+	background-color: #FFDD9C;
 }
